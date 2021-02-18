@@ -1,0 +1,56 @@
+
+.selectLanguageText{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.header{
+
+}
+.telephone img{
+    margin-left: 5px;
+}
+.tel1, .tel2{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 15px;
+}
+.navigation{
+
+}
+.navigation-link{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+}
+.search{
+    text-align: end;
+
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    align-items: end;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+#form_search {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    z-index: 1;
+}
+.logo{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}

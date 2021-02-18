@@ -1,0 +1,58 @@
+figure{
+    margin-bottom: 0;
+}
+.slide_text {
+    width: 35%;
+}
+.carousel-caption {
+    text-align: left;
+    top: 95px;
+    left: 11%;
+}
+.carousel-caption span {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+.carousel-caption p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+}
+
+/*-------button -->style.css--------*/
+.box_control {
+    display: flex;
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    top: 450px;
+    left: 15%;
+
+}
+.box_control .carousel-control-next {
+    position: inherit;
+    width: 11px;
+    height: 18px;
+    left: 20px;
+}
+.box_control .carousel-control-next .carousel-control-next-icon {
+    background-image: url("../images/icons/right.svg");
+}
+.box_control .carousel-control-prev {
+    position: inherit;
+    width: 11px;
+    height: 18px;
+    left: -35px;
+}
+.box_control .carousel-control-prev .carousel-control-prev-icon {
+    background-image: url("../images/icons/left.svg");
+}
+

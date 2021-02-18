@@ -1,0 +1,224 @@
+.main__content {
+    /*height: 2500px;*/
+    background: #E5E5E5;;
+}
+.square{
+    width: 270px;
+    height: 285px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px;
+    position: relative;
+    bottom: 70px;
+    left: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.75);
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.square p{
+    width: 230px;
+    text-align: center;
+}
+/*--------------/section/-------------------------------------*/
+
+.article__item{
+    height: 645px;
+    background: #FFFFFF url("../images/Rectangle.png") no-repeat;
+    background-position: right;
+    background-size: inherit;
+
+}
+.article__text{
+    width: 600px;
+    height: inherit;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.article__text span{
+    width: 570px;
+    height: 80px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 30px;
+}
+.article__text p{
+    width: 470px;
+    height: 425px;
+
+}
+.text-p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+/*---------------------/article/--------------------------*/
+
+.activity{
+
+    margin-top: 100px;
+    margin-bottom: 35px;
+
+}
+
+.title-text{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.activity-box{
+    /*width: 370px;*/
+    height: 140px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.activity-item{
+    width: 180px;
+    height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.activity-title {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+.activity-link{
+
+}
+.activity-link a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+.activity-image{
+    margin-top: 15px;
+}
+/*-------button -->style.css--------*/
+.activity2{
+    margin-top: 100px;
+  /*padding-bottom: 60px;*/
+}
+/*-----------activity2--------------------*/
+
+
+.slider2{
+    position: relative;
+    top: 80px;
+}
+
+.carousel-control-prev {
+    left: -100px;
+    width: 100px;
+}
+.carousel-control-next {
+    width: 100px;
+    right: -100px;
+}
+.carousel-control-next-icon {
+    width: 17px;
+    height: 30px;
+    background-image: url(../images/slide2/right.png);
+}
+.carousel-control-prev-icon {
+    width: 17px;
+    height: 30px;
+    background-image: url(../images/slide2/left.png);
+}
+/*---------------slider2-----------------------*/
+.slider3{
+
+
+}
+
+.header-reviews{
+    margin-top: 180px;
+    margin-bottom: 35px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+}.item-box-card{
+     width: 48%;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
+     padding-bottom: 65px;
+ }
+.card-info{}
+.card-post{
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.card-name{
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #DEC377;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 25px;
+}
+.card-link{
+    font-family:'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
