@@ -167,9 +167,20 @@
 }
 /*---------------slider2-----------------------*/
 .slider3{
-
-
 }
+.carousel-indicators{
+    bottom: -90px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #DEC377;
+    border-top: none;
+    border-bottom: none;
+    bottom: -90px;
+}
+
 
 .header-reviews{
     margin-top: 180px;
@@ -180,12 +191,21 @@
     line-height: 40px;
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.9);
-}.item-box-card{
-     width: 48%;
-     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
-     padding-bottom: 65px;
- }
-.card-info{}
+}
+.item-box{
+    display: flex;
+    justify-content: space-between;
+}
+.item-box-card{
+    width: 48%;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card-info{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    padding-bottom: 65px;
+}
 .card-post{
     margin-top: 40px;
     font-family: 'Lato', sans-serif;
@@ -221,4 +241,205 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
+}
+.revievs-all{
+    margin-top: 25px;
+}
+/*----------------------------------*/
+.partners{
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.partner-text{
+    width: 58%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.partners-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.partners-logo img{
+    display: block;
+}
+/*---------marketing------------------------------*/
+.marketing-box1{
+    background: #F2F2F2;
+    padding-top: 80px;
+}
+.marketing-card{
+    background: #FFFFFF;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.marketing-card-title{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.marketing-card-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.triangle{
+    position: absolute;
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*background: #DEC377;*/
+    border: 50px solid transparent;
+    border-top: 50px solid #DEC377;
+    border-right: 50px solid #DEC377;
+    z-index: 2;
+    right: 0;
+    top: 0;
+
+}
+.marketing-card2{
+    display: flex;
+    justify-content: space-between;
+    min-height: 185px;
+    background: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 100px;
+}
+.marketing-card-title2{
+    width: 24%;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 45px;
+
+}
+.marketing-card-text2{
+    width: 68%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+/*-------------------------------------*/
+.rectangle{
+    width: auto;
+    min-height: 180px;
+    background: #F2F2F2 url("../images/Rectangle 2.jpg");
+    background-repeat: no-repeat;
+
+}
+/*----------------------------------------*/
+.services-box{
+    padding-top: 80px;
+    background: #F2F2F2;
+    padding-bottom: 100px;
+}
+.services-title{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 35px;
+}
+.services-item{
+    min-height: 140px;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 30px;
+
+
+
+
+}
+.light{
+    border-left: 70px solid rgba(222, 195, 119, 0.4);
+}
+.midle{
+    border-left: 70px solid rgba(222, 195, 119, 0.75);
+}
+.hard{
+    border-left: 70px solid  #DEC377;
+}
+.services-name{
+    font-family: 'Commissioner', sans-serif;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.services-link{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+
+}
+/*---------marketing-box2-----------*/
+.marketing-box2{
+    background: #FFFFFF;
+    padding-top: 85px;
+}
+.box2-item{
+     margin-bottom: 120px;
+ }
+.box2-title{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    display: block;
+    margin-bottom: 30px;
+}
+.marker li{
+    background: url("../images/icons/Group 32.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 40px;
+    padding-left: 70px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75);
+}
+.marketing-box3{
+    background: #F2F2F2;
 }
